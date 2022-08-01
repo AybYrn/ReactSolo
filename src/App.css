@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .container{
-    width: 550px;
-    height: 868px;
+    width: 317px;
+    height: 782px;
     font-family: "Inter";
     border: 1px solid black;
-    background-color: #23252C;
+    background-color: #1A1B21;
     margin:10px auto;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .img{
     width: 317px;
     height: 317px;
     background-image: url(./profile.svg);
-    margin: 44px auto;
+    background-size: cover;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .info h2{
@@ -81,8 +83,16 @@ line-height: 15px;
 
 .About{
     color: #FFFFFF;
-    margin: 33px auto;
+    margin: 0 auto;
     width: 247px;
+    padding-top: 20px;
+}
+
+.About h2{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .About p{
@@ -90,14 +100,9 @@ line-height: 15px;
     line-height: 150%;
 }
 
-.Interests h2{
-    font-size: 16px;
-    line-height: 150%;
-}
-
 .Interests{
     color: #FFFFFF;
-    margin: 33px auto;
+    margin: 0 auto;
     width: 247px;
 }
 
@@ -109,4 +114,20 @@ line-height: 15px;
 .Interests h2{
     font-size: 16px;
     line-height: 150%;
+}
+
+.footer{
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    margin: 20px auto;
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer div{
+    padding: 24px;
 }

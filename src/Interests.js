@@ -5,8 +5,8 @@ export default function Interests() {
     <div className="Interests">
       <h2>Interest</h2>
       <p>
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        Sports Lover. Travel geek. Coffee fanatic. Runner.
+        Camping beast. Tracking. Extreme Sports Freak.
       </p>
     </div>
   );
